@@ -35,7 +35,7 @@ const Project = ({ projectNumber }) => {
                     <img src={currentProject.img} alt={currentProject.title} className='img'/>
                 </div>
                 <div className="button-container">
-                    <a href={currentProject.link} target="_blank" rel="noopener norefere" class="hover" >
+                    <a href={currentProject.link} target="_blank" rel="noreferrer" class="hover" >
                         <span className="button">voir le site</span>
                     </a>
                 </div>
